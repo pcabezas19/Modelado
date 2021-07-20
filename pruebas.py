@@ -7,7 +7,7 @@ from pagina_secundaria import Pagina2
 
 class PruebasStandards(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=r'C:\Users\thepa\Desktop\c\chromedriver.exe')
+        self.driver = webdriver.Chrome(executable_path=r'C:\Users\thepa\Desktop\cui\chromedriver.exe')
         self.driver.get('http://automationpractice.com/index.php')
         self.driver.maximize_window()
 
