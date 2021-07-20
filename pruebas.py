@@ -31,7 +31,7 @@ class PruebasStandards(unittest.TestCase):
         tercer_test.buscar3('Pedro')
         ejercicio3 = Pagina2(self.driver)
         ejercicio3.verifi3()
-        self.assertEqual('Pedro', ejercicio3.verifi3(), "******ES DIFERENTE******")
+        self.assertEqual('Pedro', ejercicio3.verifi3(), "*****ES DIFERENTE*****")
 
     def tearDown(self):
         self.driver.quit()
